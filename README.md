@@ -2,6 +2,11 @@
 This project is a Photo Gallery App made with React and the Flickr Photo Search API. 
 Users can view, filter photos of mountains and dogs and search for tags on Flickr using this app.
 This Application has infinite scrolling as well as pagination
+The Application is responsive which renders photos in the grid and 3 in a row
+
+<img width="1720" alt="Screenshot 2022-04-10 at 5 58 25 PM" src="https://user-images.githubusercontent.com/3435945/162618138-9643485f-17f8-467d-856d-7755571d93d8.png">
+
+<img width="412" alt="Screenshot 2022-04-10 at 5 58 43 PM" src="https://user-images.githubusercontent.com/3435945/162618145-6447897b-60ab-4f72-80b6-d94a86423b91.png">
 
 ### Technologies used
 * React
@@ -46,6 +51,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
+#### TODO:
+reset all the values - search,checkboxes and pagination
 
 
 

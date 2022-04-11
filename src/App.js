@@ -5,7 +5,7 @@ import Loading from "./components/Loading";
 import Header from "./components/Header";
 import Filter from "./components/Filter";
 import Pagination from "./components/Pagination";
-import "./css/index.css";
+import "./css/index.scss";
 class App extends Component {
   constructor() {
     super();

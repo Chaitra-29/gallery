@@ -11,14 +11,14 @@ function Header(props) {
   return (
     <div>
       <h1 className="header">Gallery</h1>
-      <div className="search">
+      <div className="header-search">
         <input
-          className="search-input"
+          className="header-search_input"
           value={search}
           placeholder="Search by keys"
           onChange={onSearchChange}
         />
-        <button className="search-button" onClick={handleSubmit}>
+        <button className="header-search_button" onClick={handleSubmit}>
           Search
         </button>
       </div>

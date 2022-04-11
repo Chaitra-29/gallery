@@ -13,13 +13,13 @@ function Pagination(props) {
         <div className="pagination">
           <button
             disabled={props.page > 1 ? "" : true}
-            className="pagination-button"
+            className="pagination_button"
             onClick={handlePrevious}
           >
             Previous
           </button>
 
-          <button className="pagination-button" onClick={handleNext}>
+          <button className="pagination_button" onClick={handleNext}>
             Next
           </button>
         </div>
